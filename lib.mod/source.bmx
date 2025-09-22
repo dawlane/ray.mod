@@ -50,6 +50,7 @@ Import "raylib/src/external/glfw/src/input.c"
 ?linux
 Import "raylib/src/external/glfw/src/linux_joystick.c"
 Import "raylib/src/external/glfw/src/posix_time.c"
+Import "raylib/src/external/glfw/src/posix_poll.c"
 ?
 Import "raylib/src/external/glfw/src/monitor.c"
 'Import "raylib/src/external/glfw/src/null_init.c"

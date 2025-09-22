@@ -45,6 +45,10 @@
 #define SYN_DROPPED 3
 #endif
 
+#ifndef O_CLOEXEC // Not defined on some older Linux systems
+#  define O_CLOEXEC 0
+#endif
+
 // Apply an EV_KEY event to the specified joystick
 //
 static void handleKeyEvent(_GLFWjoystick* js, int code, int value)
